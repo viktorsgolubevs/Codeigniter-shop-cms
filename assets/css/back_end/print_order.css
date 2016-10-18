@@ -1,0 +1,59 @@
+@import url('../default.css');
+
+.order-print-container{
+    padding: 30px;
+}
+.order-data{
+    margin-bottom: 15px;
+}
+.order-data .personal-block{
+    margin: 15px 20px;
+    border: 0px solid black;
+}
+.order-data .personal-block h1{
+    text-transform: uppercase;
+    text-align: right;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.order-data .personal-block strong{
+    font-weight: bold;
+}
+.order-data .personal-block div strong{
+    min-width: 160px;
+    display: inline-block;
+}
+
+table, tfoot{
+    border: 1px solid #cfd9db;
+    font-size: 13px;
+    width: 100%;
+    border-collapse: collapse;
+}
+table thead tr {
+    border-bottom: 2px solid #cfd9db;
+}
+table thead th {
+    background-color: #f9f9f9;
+    color: #5e5e5e;
+    font-weight: 600;
+    padding: 3px 6px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+table tbody td {
+    color: #000000;
+    padding: 7px 10px;
+}
+.order-data-table .fn{
+    border: 1px solid #cfd9db;
+    padding: 8px;
+    text-align: right;
+    font-size: 14px;
+}
+.order-data-table .fn strong{
+    padding-left: 10px;
+}
+.order-data-table .fn.bg{
+    background-color: #eaedee;
+}
+

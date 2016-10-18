@@ -1,0 +1,53 @@
+/* General Default Style */
+*{
+    margin:0px;
+    padding:0px;
+    outline: none;
+    border: 0 none;
+}
+body{
+	font-family: Arial, Sans-serif;
+	background: #ffffff;
+    color: #444444;
+	font-weight: 300;
+	font-size: 13px;
+	overflow-x: hidden;
+    height:100%
+}
+a{
+    text-decoration: none;
+}
+a img{
+	border: none;
+}
+ul{
+    list-style-type: none;
+}
+.clear{
+    clear: both;
+}
+input[type=submit]{
+    cursor: pointer;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.hide{
+    display: none;
+}
+.text-right{
+    text-align: right;
+}
+.text-left{
+    text-align: left;
+}
+.center{
+    text-align: center;
+}
+
+.bottom-30{
+    margin-bottom: 30px;
+}
